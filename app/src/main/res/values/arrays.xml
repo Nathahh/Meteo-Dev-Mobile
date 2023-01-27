@@ -1,0 +1,13 @@
+<resources>
+    <string-array name="temperature">
+        <item>°C</item>
+        <item>°F</item>
+    </string-array>
+
+    <string-array name="vent">
+        <item>km/h</item>
+        <item>m/s</item>
+        <item>mph</item>
+        <item>kts</item>
+    </string-array>
+</resources>

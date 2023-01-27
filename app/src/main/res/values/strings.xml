@@ -1,0 +1,105 @@
+<resources>
+    <string name="app_name">Weather Forecast</string>
+    <string name="ville">City</string>
+    <string name="jour">Day</string>
+    <string name="icone_meteo">Current condition</string>
+    <string name="condition">Condition</string>
+    <string name="temperature">Temperature</string>
+    <string name="tmin" translatable="false">TMin</string>
+    <string name="tmax" translatable="false">TMax</string>
+    <string name="humidite">Humidity</string>
+    <string name="vent">Wind</string>
+    <string name="lever_soleil">Sunrise</string>
+    <string name="coucher_soleil">Sunset</string>
+    <string name="saisir_ville">Enter a city</string>
+    <string name="tmp_C" translatable="false">%1$S °C</string>
+    <string name="TMin_C" translatable="false">TMin : %1$S °C</string>
+    <string name="TMax_C" translatable="false">TMax : %1$S °C</string>
+    <string name="temperatures">Temperatures</string>
+    <string name="error">Error</string>
+    <string name="pas_fonctionne">Sorry, it\' s doesn\'t work</string>
+    <string name="humidite2">Humidity : %1$S</string>
+    <string name="vent_KMH">Wind : %1$S km / h</string>
+    <string name="meteo_semaine">Weather forecast for the week</string>
+    <string name="ville_non_trouvee">The entered city was not found</string>
+    <string name="ok">OK</string>
+    <string name="entrez_ville">Enter a city</string>
+    <string name="paris" translatable="false">Paris</string>
+    <string name="valider">Validate</string>
+    <string name="zone_txt_ne_peut_pas_etre_vide">The textbox cannot be empty</string>
+    <string name="localisation">Localisation</string>
+    <string name="recuperer_localisation">Get localisation</string>
+    <string name="impossible_recupe_localisation">Impossible to get the localisation</string>
+    <string name="activer">Activate</string>
+    <string name="voulez_vous_vraiment_quitter">Do you really want to quit the app ?</string>
+    <string name="oui">Yes</string>
+    <string name="non">No</string>
+    <string name="quitter">Leave</string>
+    <string name="widget_ville">City widget</string>
+    <string name="widget_temperature">Temperature widget</string>
+
+    <!-- Preferences -->
+    <string name="reply_title">Value</string>
+    <string name="a_propos">About</string>
+    <string name="developpeurs">Developers</string>
+    <string name="developpe_par">Developed by Alexandre Vernet and Valentin Arpin</string>
+    <string name="version">Version</string>
+    <string name="general">General</string>
+    <string name="parametres">Settings</string>
+    <string name="pas_internet">No internet connection</string>
+    <string name="tmp_F" translatable="false">%1$S °F</string>
+    <string name="T_Min_F" translatable="false">TMin : %1$S °F</string>
+    <string name="T_Max_F" translatable="false">TMax : %1$S °F</string>
+    <string name="erreur_conversion_unite">Error in unit convert</string>
+    <string name="vent_MS">Wind : %1$S m / s</string>
+    <string name="vent_MPH">Wind : %1$S mph</string>
+    <string name="vent_KTS">Wind : %1$S kts</string>
+
+    <!--Cities-->
+    <string-array name="cities">
+        <item>Paris</item>
+        <item>Marseille</item>
+        <item>Lyon</item>
+        <item>Lille</item>
+        <item>Strasbourg</item>
+        <item>Toulouse</item>
+        <item>Angers</item>
+        <item>Nice</item>
+        <item>Reines</item>
+        <item>Nantes</item>
+        <item>Montpellier</item>
+        <item>Albi</item>
+        <item>Bordeaux</item>
+        <item>Havre</item>
+        <item>Nancy</item>
+        <item>Grenobles</item>
+        <item>Dijon</item>
+        <item>Orleans</item>
+        <item>Toulon</item>
+        <item>Limoges</item>
+        <item>Le Mans</item>
+        <item>Reim</item>
+        <item>Besançon</item>
+        <item>Nimes</item>
+        <item>Tours</item>
+        <item>Rouen</item>
+        <item>Perpignan</item>
+        <item>Avignon</item>
+        <item>Clermont-Ferrand</item>
+        <item>Aix-en-Provence</item>
+        <item>Brest</item>
+        <item>Caen</item>
+        <item>Poitier</item>
+        <item>Rochelle-17</item>
+        <item>Realmont</item>
+        <item>Saint-juery-81</item>
+        <item>Carmaux</item>
+        <item>Arthes</item>
+        <item>Cambon</item>
+        <item>Cunac</item>
+        <item>Terssac</item>
+        <item>Puygouzon</item>
+        <item>Frejairolles</item>
+    </string-array>
+    <string name="recuperation_derniere_localisation_connue">Retrieving the last known location</string>
+</resources>

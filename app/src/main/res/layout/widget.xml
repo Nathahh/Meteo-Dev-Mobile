@@ -1,0 +1,28 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin"
+    android:theme="@style/ThemeOverlay.ProjetDevMobileMétéo.AppWidgetContainer">
+
+    <TextView
+        android:id="@+id/widgetVille"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/widget_ville"
+        android:textColor="@color/orange"
+        android:textSize="50sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/widgetTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:contentDescription="@string/widget_temperature"
+        android:textColor="@color/orange"
+        android:textSize="68sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
